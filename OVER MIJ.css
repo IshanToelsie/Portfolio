@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+    background-image: url("foto 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    text-align: center;
+}
+
+.test {
+    text-align: right;
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 10%;
+    font-family: "Garamond";
+    font-size: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.nav {
+    width: 350px;
+    height: auto;
+    position: fixed;
+    top: 20%;
+    left: 0;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+    height: 90px;
+    margin: 5px 0;
+    float: left;
+    background-color: black;
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+
+a.active {
+    background-color: white;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.a {
+    width: 100%;
+}
+
+.b {
+    width: 95%;
+}
+
+.c {
+    width: 90%;
+}
+
+.d {
+    width: 85%;
+}
+
+.e {
+    width: 80%;
+}
+
+.f {
+    width: 75%;
+}

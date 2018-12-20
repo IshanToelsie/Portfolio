@@ -1,0 +1,123 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: -6%
+}
+
+.midbox {
+    height: 200px;
+    color: white;
+    margin-top: 50px;
+}
+
+.midboxtext {
+    margin-top: 1%;
+    font-size: 18px;
+    color: white;
+    font-family: Arial;
+}
+
+.midboxopdr {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containeropleiding {
+    height: 100vh;
+    background-image: url("foto 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: red;
+    font-family: Arial;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.nav {
+    width: 350px;
+    height: auto;
+    position: fixed;
+    top: 20%;
+    left: 0;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+    height: 90px;
+    margin: 5px 0;
+    float: left;
+    background-color: black;
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+
+a.active {
+    background-color: white;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.a {
+    width: 100%;
+}
+
+.b {
+    width: 95%;
+}
+
+.c {
+    width: 90%;
+}
+
+.d {
+    width: 85%;
+}
+
+.e {
+    width: 80%;
+}
+
+.f {
+    width: 75%;
+}
